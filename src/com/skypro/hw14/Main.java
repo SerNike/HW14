@@ -6,8 +6,8 @@ public class Main {
         Book hotel = new Book("Отель", arthurHailey, 1965);
         System.out.println(hotel.infoBook());
 
-        hotel.setYearBook(2020);
-        System.out.println(hotel.infoBook());
+        hotel.setYearBook(1965);
+        System.out.println("Год издание книги: " + hotel.getYearBook());
 
         Author gogol = new Author("Николай", "Гоголь");
         Book nos = new Book("Нос", gogol, 1985);

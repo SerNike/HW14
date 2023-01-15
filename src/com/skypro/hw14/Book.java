@@ -16,14 +16,14 @@ public class Book {
         return nameBook;
     }
     public int getYearBook(){
-        return yearBook;
+        return this.yearBook;
     }
     public Author getAuthor(){
+
         return author;
     }
     public void setYearBook(int yearBook) {
-        System.out.println("год издание книги: " + yearBook);
-    return;
+        this.yearBook = yearBook;
     }
     public String infoBook(){
         return "Название книги: " + nameBook + ". Автор книги: " + author.fullNameAuthor() + ". Год издания: " + yearBook;
